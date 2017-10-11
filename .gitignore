@@ -6,6 +6,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+quickstart.py
+
 # C extensions
 *.so
 
@@ -93,3 +95,6 @@ ENV/
 
 # Mac files
 .DS_Store
+
+# Editors
+.idea

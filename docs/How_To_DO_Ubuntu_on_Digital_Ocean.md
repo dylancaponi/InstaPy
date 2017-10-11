@@ -4,8 +4,9 @@
 - #### Make sure to use the 1GB RAM version (or better)
 
 - #### Make sure to set ```nogui=True``` in your InstaPy file
+- #### Note that current Chrome browser and chromedriver needed for the install only support 64-bit architecture. 
 
-## General dependencies
+### General dependencies
 
 ```sh
 $ sudo apt-get update
@@ -20,7 +21,7 @@ $ sudo dpkg-reconfigure locales
 $ pip3 install --upgrade pip
 ```
 
-## Chrome-stable
+### Chrome-stable
 
 ```sh
 $ cd ~
@@ -30,7 +31,7 @@ $ sudo apt-get install -y -f
 $ sudo rm google-chrome-stable_current_amd64.deb
 ```
 
-## InstaPy
+### InstaPy
 
 ```bash
 $ git clone https://github.com/timgrossmann/InstaPy.git
@@ -42,4 +43,3 @@ $ chmod 755 InstaPy/assets/chromedriver
 $ cd InstaPy
 $ pip install .
 ```
-
